@@ -1,0 +1,30 @@
+/* Cor de fundo da barra lateral */
+[data-testid="stSidebar"] {
+    background-color: #0e1117;
+    border-right: 1px solid #262730;
+}
+
+/* Ajuste nos botões */
+.stButton>button {
+    border-radius: 20px;
+    border: 1px solid #4a90e2;
+    background-color: transparent;
+    color: #4a90e2;
+    transition: 0.3s;
+}
+
+.stButton>button:hover {
+    background-color: #4a90e2;
+    color: white;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    color: #4a90e2 !important;
+}
+
+/* CORREÇÃO: Mudando de #ffffff para o nosso azul #4a90e2 */
+[data-testid="stMetricValue"] {
+    font-size: 24px;
+    color: #4a90e2; 
+}
